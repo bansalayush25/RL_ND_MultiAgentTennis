@@ -26,7 +26,7 @@ The task  is episodic, and the environment is solved when the agents get an aver
 ## Goal
 Train two RL agents to play tennis. Agents must keep the ball in play for as long as possible.
 
-# Getting Started
+## Getting Started
 It is recommended to follow the Udacity DRL ND dependencies [instructions here](https://github.com/udacity/deep-reinforcement-learning#dependencies) 
 
 This project utilises [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md), [NumPy](http://www.numpy.org/) and [PyTorch](https://pytorch.org/) 
