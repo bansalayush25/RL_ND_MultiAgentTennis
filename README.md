@@ -25,3 +25,22 @@ The task  is episodic, and the environment is solved when the agents get an aver
 
 ## Goal
 Train two RL agents to play tennis. Agents must keep the ball in play for as long as possible.
+
+# Getting Started
+It is recommended to follow the Udacity DRL ND dependencies [instructions here](https://github.com/udacity/deep-reinforcement-learning#dependencies) 
+
+This project utilises [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md), [NumPy](http://www.numpy.org/) and [PyTorch](https://pytorch.org/) 
+A prebuilt simulator is required in be installed. You need only select the environment that matches your operating system:
+
+
+Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
+Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
+Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
+Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
+
+The file needs to placed in the root directory of the repository and unzipped.
+
+## Instructions
+Then run the [`Tennis.ipynb`](https://github.com/bansalayush25/RL_ND_MultiAgentTennis/blob/main/Tennis.ipynb) notebook to train the Multi Agent DDPG agent.
+
+Once trained the model weights will be saved in the same directory in the files `checkpoint_actor_0.pth`, `checkpint_critic_0.pth`, `checkpoint_actor_1.pth` and `checkpint_critic_1.pth`.
